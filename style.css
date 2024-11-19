@@ -45,11 +45,11 @@ body::-webkit-scrollbar{
             z-index: 1;
         }
 
-.card{
+.cardAnimation{
     transition: all 0.3s;
 }
 
-.card:hover{
+.cardAnimation:hover{
     transform: scale(1.15);
 }
 
