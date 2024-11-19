@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css">
+    <title>Main Page</title>
+</head>
+
+<body>
+
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary p-3 fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="mainpage.html">Fikri Rafi Maulana</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="d-flex">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" role="button" data-bs-toggle="dropdown" 
+                                aria-expanded="true">
+                                Projects
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="bmi.html">Kalkulator BMI</a></li>
+                                <li><a class="dropdown-item" href="#project">Others</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#skill">Skill</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#about">About Me</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+    </nav>
+
+    <!-- ImgWrapper -->
+    <img src="img/preview3.jpg" class="img-fluid">
+
+    <!-- About Me -->
+    <div class="container p-5" id="about">
+        <h3 class="h3 text-center">About Me</h3>
+        <p class="text-center">Halo! Saya adalah seorang pengembang yang bersemangat dengan kecintaan pada pemecahan masalah dan inovasi. Selama bertahun-tahun, saya telah membangun beragam keahlian, termasuk pengembangan front-end dan back-end, serta pengalaman bekerja dengan database. Perjalanan saya di dunia teknologi dimulai dengan rasa ingin tahu tentang cara kerja berbagai hal, yang dengan cepat berkembang menjadi upaya penuh dedikasi untuk menguasai seni pemrograman.</p>
+    </div>
+
+    <!-- skills & experience -->
+    <div class="bg-light-subtle p-5" id="skill">
+        <h2 class="display-5 text-center">Skill's & Experience</h2>
+        <div class="row mt-5">
+
+            <!-- html css -->
+            <div class="col">
+                <h3 class="display-6 fs-5 text-center mb-3">HTML/CSS</h3>
+                <div class="progress-circle mx-auto">
+                    <div class="progress-inner"></div>
+                    <div class="progress-text text-black">50%</div>
+                </div>
+            </div>
+
+            <!-- python -->
+            <div class="col">
+                <h3 class="display-6 fs-5 text-center mb-3">Python</h3>
+                <div class="progress-circle mx-auto">
+                    <div class="progress-inner"></div>
+                    <div class="progress-text text-black">50%</div>
+                </div>
+            </div>
+
+            <!-- flutter -->
+            <div class="col">
+                <h3 class="display-6 fs-5 text-center mb-3">Flutter</h3>
+                <div class="progress-circle mx-auto">
+                    <div class="progress-inner"></div>
+                    <div class="progress-text text-black">50%</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- my project -->
+    <div class="p-3" id="project">
+        <h2 class="display-5 text-center">My Project</h2>
+        <div class="container">
+            <div class="row text-center mt-5 position-relative">
+                <div class="col">
+                    <div class="card mx-auto" style="width: 18rem;">
+                        <img src="img/img_flutter.jpg" class="card-img-top" alt="..." >
+                        <div class="card-body">
+                            <h5 class="card-title">Flutter Project</h5>
+                            <p class="card-text">Flutter adalah sebuah framework dari bahasa pemrograman dart yang digunakan untuk membuat aplikasi berbasis mobile, website dan desktop, namun lebih sering pada aplikasi mobile</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mx-auto" style="width: 18rem;">
+                        <img src="img/img_htmlcss.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Front End</h5>
+                            <p class="card-text">HTML dan CSS merupakan 2 komponen paling mendasar untuk membangun sebuah website. html digunakan sebagai rangka atau struktur badan utama dan css digunakan untuk mempercantik tampilan website</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mx-auto" style="width: 18rem;">
+                        <img src="img/img_python.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Back End</h5>
+                            <p class="card-text">Python adalah sebuah bahasa pemrograman yang berjalan pada server side dimana python akan mengatur segala informasi yang masuk dan keluar antara server dan user. Selain pada server juga biasa digunakan untuk membuat machine learning, data analys dan membuat game sederhana</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- form -->
+    <div class="bg-light-subtle">
+
+        <div class="container mt-4 mb-4">
+            <h3 class="display-5 text-center">Send Me!</h3>
+            <form>
+                <div class="mb-3">
+                    <label for="email class=" form-label">Email</label>
+                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                        placeholder="nama@email.com">
+                </div>
+                <div class="mb-3">
+                    <label for="username" class="form-label">Username</label>
+                    <input type="text" class="form-control" id="username" placeholder="username123">
+                </div>
+                <div class="form-floating mb-3">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                        style="height: 100px"></textarea>
+                    <label for="floatingTextarea2">Massage</label>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Send Massage</button>
+            </form>
+        </div>
+    </div>
+    
+    <!-- footer -->
+    <footer class="bg-dark text-light text-center p-5 position-relative">
+        <div class="container">
+            <p class="lead">&copy;Copyright 2023</p>
+            <p>Fikri Rafi Maulana</p>
+            <a href="https://github.com/fikrirafim" class="p-2">
+                <img src="img/github-white.png" style="height: 30px;" class="icon">
+            </a>
+            <a href="" class="p-2">
+                <img src="img/instagram-white.png" style="height: 30px;" class="icon">
+            </a>
+            <a href="" class="p-2">
+                <img src="img/linkedin-white.png" style="height: 30px;" class="icon">
+            </a>
+    
+                <a href="#" class="position-absolute bottom-0 end-0 p-5">
+                    <i class="bi bi-arrow-up-circle-fill h1"></i>
+                </a>
+            </div>
+        </footer>
+
+</body>
+
+</html>
